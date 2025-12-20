@@ -85,7 +85,7 @@ with col2:
 # 7. Recommandation finale
 
 st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de 
-rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.
-Il faut tout de même noter que de possibles phénomènes naturels ou politiques pourraient avoir un effet sur cette prédiction.")
+rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
