@@ -49,7 +49,7 @@ prediction_2026 = model.predict([[cee_target, bepc_target]])[0]
 
 # 6. Interface Principale
 st.title(" GUINEE : Pilotage Stratégique des Examens ")
-st.title(" Horizon 2026 ")
+st.title(" Prédiction : Horizon 2026 ")
 st.markdown("### Analyse de la rupture structurelle et projections économétriques")
 
 col1, col2 = st.columns([3, 1])
@@ -84,8 +84,8 @@ with col2:
 
 # 7. Recommandation finale
 
-st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de 
-rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
 
