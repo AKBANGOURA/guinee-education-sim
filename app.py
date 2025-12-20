@@ -72,7 +72,7 @@ with col1:
     ax.get_xaxis().get_major_formatter().set_scientific(False)
     
     ax.set_ylabel("Taux de réussite (%)")
-    ax.legend(loc='upper left')
+    ax.legend(loc='lower left')
     ax.grid(True, linestyle=':', alpha=0.5)
     st.pyplot(fig)
 
@@ -85,3 +85,4 @@ with col2:
 # 7. Recommandation finale
 
 st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
