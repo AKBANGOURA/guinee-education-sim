@@ -2,7 +2,7 @@
 # PROJET DE THÈSE : Économie de l'Éducation en Guinée
 # APPLICATION : Simulateur de Rupture Structurelle et Prédictions
 # AUTEUR : Almamy Kalla BANGOURA
-# PROFESSION : Consultant Data
+# PROFESSION : Consultant Data | Chargé d'études statistiques
 # LABORATOIRE : Candidat au Laboratoire d'Économie de Poitiers (LEP)
 # =================================================================
 
@@ -27,7 +27,7 @@ st.sidebar.markdown("---") # Ligne de séparation
 # 3. DESCRIPTION DE L'AUTEUR EN DESSOUS
 st.sidebar.header("🎓 À propos de l'auteur")
 st.sidebar.write("**Auteur :** Almamy Kalla BANGOURA")
-st.sidebar.write("**Expertise :** Consultant Data")
+st.sidebar.write("**Expertise :** Consultant Data | Chargé d'études statistiques")
 
 # 4. Données Historiques (2005-2025)
 @st.cache_data
@@ -48,7 +48,8 @@ model = Ridge(alpha=1.0).fit(df_recent[['CEE', 'BEPC']], df_recent['BAC'])
 prediction_2026 = model.predict([[cee_target, bepc_target]])[0]
 
 # 6. Interface Principale
-st.title(" GUINEE : Pilotage Stratégique des Examens  Horizon 2026")
+st.title(" GUINEE : Pilotage Stratégique des Examens ")
+st.title(" Horizon 2026 ")
 st.markdown("### Analyse de la rupture structurelle et projections économétriques")
 
 col1, col2 = st.columns([3, 1])
@@ -82,4 +83,5 @@ with col2:
     st.caption("Cette projection repose sur l'hypothèse d'une persistance du modèle de rigueur instauré en 2022.")
 
 # 7. Recommandation finale
+
 st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
