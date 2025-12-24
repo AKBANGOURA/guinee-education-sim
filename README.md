@@ -1,1 +1,0 @@
-# guinee-education-sim
