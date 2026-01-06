@@ -36,7 +36,7 @@ def load_data():
         'Annee': list(range(2005, 2026)),
         'CEE': [61.5, 63.4, 59.8, 62.7, 64.2, 66.5, 58.4, 63.1, 65.4, 68.2, 66.7, 69.4, 71.2, 63.4, 62.34, 55.83, 62.08, 17.62, 44.25, 63.22, 65.5],
         'BEPC': [48.2, 45.9, 43.1, 47.5, 49.3, 50.1, 42.6, 44.8, 46.2, 48.5, 47.2, 49.8, 48.6, 45.6, 44.11, 35.59, 35.08, 15.04, 34.05, 47.11, 48.2],
-        'BAC': [32.4, 34.1, 28.9, 35.6, 36.2, 38.4, 27.3, 32.5, 35.8, 43.9, 39.6, 41.2, 24.5, 26.04, 24.38, 44.43, 25.33, 9.37, 27.46, 24.64, 29.8]
+        'BAC': [27.0, 33.15, 19.0, 26.45, 29.0, 31.53, 34.0, 38.0, 26.0, 34.0, 26.0, 42.0, 27.12, 26.04, 24.38, 44.43, 25.36, 9.37, 27.46, 24.64, 32.33]
     }
     return pd.DataFrame(data)
 
@@ -85,6 +85,7 @@ with col2:
 # 7. Recommandation finale
 
 st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
 
