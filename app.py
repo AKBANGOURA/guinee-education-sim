@@ -19,8 +19,8 @@ st.set_page_config(page_title="Simulateur Guinée 2005-2026", layout="wide")
 # 2. BARRE LATÉRALE : PARAMÈTRES EN PREMIER
 st.sidebar.header("🎯 Paramètres de Simulation 2026")
 st.sidebar.info("Ajustez les cibles pour voir l'impact sur le BAC 2026.")
-cee_target = st.sidebar.slider("Cible CEE 2026 (%)", 10.0, 90.0, 63.24)
-bepc_target = st.sidebar.slider("Cible BEPC 2026 (%)", 10.0, 80.0, 46.81)
+cee_target = st.sidebar.slider("Cible CEE 2026 (%)", 10.0, 90.0, 61.74)
+bepc_target = st.sidebar.slider("Cible BEPC 2026 (%)", 10.0, 80.0, 44.82)
 
 st.sidebar.markdown("---") # Ligne de séparation
 
@@ -85,6 +85,7 @@ with col2:
 # 7. Recommandation finale
 
 st.success(f"**Analyse d'Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
 
