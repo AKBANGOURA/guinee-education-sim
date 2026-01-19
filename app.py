@@ -80,11 +80,12 @@ with col2:
     st.metric(label="PROJECTION BAC 2026", value=f"{prediction_2026:.2f} %")
     st.write("---")
     st.write("**Note Stratégique :**")
-    st.caption("Cette projection repose sur l'hypothèse d'une persistance du modèle de rigueur instauré en 2022, un intervalle de confiance stochastique (($+05,22\%$ ; $-05,22\%$)) permet d'anticiper les variations selon les aléas de gouvernance ou de calendrier.")
+    st.caption("Cette projection repose sur l'hypothèse d'une persistance du modèle de rigueur instauré en 2022, un intervalle de confiance stochastique + ou - 5% permet d'anticiper les variations selon les aléas de gouvernance ou de calendrier.")
 
 # 7. Recommandation finale
 
 st.success(f"**Analyse de l'Expert:** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
 
