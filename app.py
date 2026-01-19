@@ -27,7 +27,7 @@ st.sidebar.markdown("---") # Ligne de séparation
 # 3. DESCRIPTION DE L'AUTEUR EN DESSOUS
 st.sidebar.header("🎓 À propos de l'auteur")
 st.sidebar.write("**Auteur :** Almamy Kalla BANGOURA")
-st.sidebar.write("**Expertise :** Economiste-statisticien | Consultant BI et Expert en analyse des données et évaluation d'impact des politiques publiques")
+st.sidebar.write("**Profil :** Economiste-statisticien | Consultant BI et Expert en analyse des données et évaluation d'impact des politiques publiques")
 
 # 4. Données Historiques (2005-2025)
 @st.cache_data
@@ -80,11 +80,12 @@ with col2:
     st.metric(label="PROJECTION BAC 2026", value=f"{prediction_2026:.2f} %")
     st.write("---")
     st.write("**Note Stratégique :**")
-    st.caption("Cette projection repose sur l'hypothèse d'une persistance du modèle de rigueur instauré en 2022, avec Un intervalle de confiance stochastique ($23,22\%$ — $33,22\%$) permettant d'anticiper les variations selon les aléas de gouvernance ou de calendrier..")
+    st.caption("Cette projection repose sur l'hypothèse d'une persistance du modèle de rigueur instauré en 2022, un intervalle de confiance stochastique ($23,22\%$ — $33,22\%$) permet d'anticiper les variations selon les aléas de gouvernance ou de calendrier.")
 
 # 7. Recommandation finale
 
 st.success(f"**Analyse de l'Expert Almamy Kalla BANGOURA :** La corrélation entre les cycles s'est stabilisée à un niveau de rigueur élevé. Pour 2026, une cible de {prediction_2026:.1f}% au BAC est cohérente avec les efforts de moralisation des examens.")
+
 
 
 
